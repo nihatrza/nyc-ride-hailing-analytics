@@ -16,6 +16,33 @@ An end-to-end Data Analytics & Engineering project analyzing **20.57M+ clean rid
 3. **Geographic Bottlenecks:** Outer boroughs experience severe supply shortages, pushing average wait times up to **7.9 minutes in Queens** (Hammels/Arverne, JFK Airport) and **7.4 minutes in Staten Island**.
 4. **Economic Disparity:** Driver earnings drop significantly on weekends (**$18.51 avg pay** vs **$20.18 on weekdays**), accompanied by lower tip rates ($1.03 vs $1.20).
 ---
+
+## 📊 Power BI Interactive Dashboard
+ 
+### Dashboard Pages Architecture
+ 
+**Page 1: Overview (Financial Performance & Market Share)**
+Focuses on market share breakdown between Uber and Lyft, net company profitability, and step-by-step revenue deduction via Waterfall Analysis.
+- Key Visuals: Market Share Clustered Bar, Net Revenue Donut, Profitability Breakdown Waterfall Chart, Daily Revenue Trend Line.
+![Executive Overview](assets/dashboard_overview.png)
+
+**Page 2: Operations (Spatial Demand & Wait Times)**
+Analyzes geographic concentration, airport demand, and operational bottlenecks across NYC boroughs and zones.
+- Key Visuals: Custom TopoJSON NYC Shape Map, Top Active Zones Bar Chart, Service Zone Breakdown, Demand & Wait Time Combo Chart.
+![Operational Dynamics](assets/dashboard_operations.png)
+
+**Page 3: Economics (Pricing & Driver Pay Behavior)**
+Examines econometric pricing drivers, distance vs. fare relationships, demand across time windows, and driver earnings stability.
+- Key Visuals: Distance vs. Fare Regression Scatter Plot, Revenue by Time Window, Weekday vs. Weekend Bar Chart, Daily Driver Pay Trend.
+![Econometric & Pricing Behavior](assets/dashboard_economics.png)
+
+
+### Dashboard UX Features
+- **Custom Theme:** Dark Slate (`#1E222D`) background with signature NYC Taxi Yellow (`#FFC107`) highlights.
+- **Seamless Navigation:** Custom transparent shape overlays for smooth 1-click page switching.
+- **Bookmark Actions:** 1-click "Reset All Slicers" button.
+- **External Links:** Embedded web actions routing directly to LinkedIn and GitHub repositories.
+---
  
 ## 💡 Key Business Insights & Strategic Recommendations
  
@@ -176,32 +203,6 @@ ORDER BY 1;
  
 ---
  
-## 📊 Power BI Interactive Dashboard
- 
-### Dashboard Pages Architecture
- 
-**Page 1: Overview (Financial Performance & Market Share)**
-Focuses on market share breakdown between Uber and Lyft, net company profitability, and step-by-step revenue deduction via Waterfall Analysis.
-- Key Visuals: Market Share Clustered Bar, Net Revenue Donut, Profitability Breakdown Waterfall Chart, Daily Revenue Trend Line.
-![Executive Overview](assets/dashboard_overview.png)
-
-**Page 2: Operations (Spatial Demand & Wait Times)**
-Analyzes geographic concentration, airport demand, and operational bottlenecks across NYC boroughs and zones.
-- Key Visuals: Custom TopoJSON NYC Shape Map, Top Active Zones Bar Chart, Service Zone Breakdown, Demand & Wait Time Combo Chart.
-![Operational Dynamics](assets/dashboard_operations.png)
-
-**Page 3: Economics (Pricing & Driver Pay Behavior)**
-Examines econometric pricing drivers, distance vs. fare relationships, demand across time windows, and driver earnings stability.
-- Key Visuals: Distance vs. Fare Regression Scatter Plot, Revenue by Time Window, Weekday vs. Weekend Bar Chart, Daily Driver Pay Trend.
-![Econometric & Pricing Behavior](assets/dashboard_economics.png)
-
-
-### Dashboard UX Features
-- **Custom Theme:** Dark Slate (`#1E222D`) background with signature NYC Taxi Yellow (`#FFC107`) highlights.
-- **Seamless Navigation:** Custom transparent shape overlays for smooth 1-click page switching.
-- **Bookmark Actions:** 1-click "Reset All Slicers" button.
-- **External Links:** Embedded web actions routing directly to LinkedIn and GitHub repositories.
----
  
 ## 📁 Repository Structure
  
