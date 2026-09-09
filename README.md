@@ -183,14 +183,18 @@ ORDER BY 1;
 **Page 1: Overview (Financial Performance & Market Share)**
 Focuses on market share breakdown between Uber and Lyft, net company profitability, and step-by-step revenue deduction via Waterfall Analysis.
 - Key Visuals: Market Share Clustered Bar, Net Revenue Donut, Profitability Breakdown Waterfall Chart, Daily Revenue Trend Line.
+![Executive Overview](assets/dashboard_overview.png)
 
 **Page 2: Operations (Spatial Demand & Wait Times)**
 Analyzes geographic concentration, airport demand, and operational bottlenecks across NYC boroughs and zones.
 - Key Visuals: Custom TopoJSON NYC Shape Map, Top Active Zones Bar Chart, Service Zone Breakdown, Demand & Wait Time Combo Chart.
+![Operational Dynamics](assets/dashboard_operations.png)
 
 **Page 3: Economics (Pricing & Driver Pay Behavior)**
 Examines econometric pricing drivers, distance vs. fare relationships, demand across time windows, and driver earnings stability.
 - Key Visuals: Distance vs. Fare Regression Scatter Plot, Revenue by Time Window, Weekday vs. Weekend Bar Chart, Daily Driver Pay Trend.
+![Econometric & Pricing Behavior](assets/dashboard_economics.png)
+
 
 ### Dashboard UX Features
 - **Custom Theme:** Dark Slate (`#1E222D`) background with signature NYC Taxi Yellow (`#FFC107`) highlights.
